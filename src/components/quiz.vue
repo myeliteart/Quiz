@@ -2,7 +2,7 @@
     <div class="border-y-5 border-amber-800 bg-white mt-4 py-7">
         <div v-if="!start">
             <div v-for="itm in quizy.question.slice(index, index + 1)">
-                <h3 class="text-2xl">{{ itm.qutn }}</h3>
+                <h3 class="text-2xl px-10 md:px-0">{{ itm.qutn }}</h3>
                 <img :src="itm.img" class="mt-6 w-full">
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mx-auto px-11 py-6">

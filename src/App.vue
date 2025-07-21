@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup> 
   import quiz from './components/quiz.vue';
   import FinalScore from './components/FinalScore.vue';
   import { ref, watch } from 'vue';
@@ -22,27 +22,27 @@
       question: [
         {
           qutn: 'Who is currently the president of the united states?',
-          img: 'https://media.npr.org/assets/img/2021/01/21/ap_21021110780453_custom-d6dfddf768dbd02ed59154c961a2f7f9a6fbcaff.jpg?s=1100&c=50&f=jpeg'
+          img: 'https://www.metabunk.org/attachments/oval-office-jpg.42994/'
         },
         {
           qutn: 'In what year did World War II end?',
-          img: 'https://m.media-amazon.com/images/I/71JRYtkJx1L._UF894,1000_QL80_.jpg'
+          img: 'https://www.nationalww2museum.org/sites/default/files/styles/wide_medium/public/2023-08/liberationofparis.png?h=7398e27f'
         },
         {
           qutn: 'What is your favorite front-end programming language?',
-          img: 'https://media.licdn.com/dms/image/v2/D4D12AQESYQmZS5KNbg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1690841770785?e=2147483647&v=beta&t=scQnI6hOtuhHTxuKOua45QpFaw5el2SCdtGADnN2ab0'
+          img: 'https://www.simplilearn.com/ice9/free_resources_article_thumb/recact_angular_vue.jpg'
         },
         {
         qutn: 'Whats the capital of Canada?',
-        img: 'https://guias-viajar.com/wp-content/uploads/2014/07/Fotos-Canada-Ottawa-002-2.jpg'
+        img: 'https://www.taylorstracks.com/wp-content/uploads/2018/01/Ottawa-Rideau-Canal.jpg.webp'
       },
       {
         qutn: 'What is your favorite color?',
-        img: 'https://cdn.apartmenttherapy.info/image/upload/v1657303275/at/art/design/2022-07/Color-Month/Colormonth-mood-3000x2000.png'
+        img: 'https://img.freepik.com/premium-photo/abstract-colorful-background-elegant-design-cover-modern-composition_1145931-59506.jpg?semt=ais_hybrid&w=740'
       },
       {
         qutn: 'In which us city is Disney World located',
-        img: 'https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/activities/avkqwz1ar2964muauoml/Walt%20Disney%20World%20Resort%20Ticket.jpg'
+        img: 'https://www.thetopvillas.com/blog/wp-content/uploads/2021/05/Webp.net-resizeimage-2021-05-25T162018.092-1.jpg'
       }
     ],
       answers: [
